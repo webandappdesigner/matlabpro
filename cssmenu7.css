@@ -149,4 +149,81 @@
             margin-top: 0.5rem;
           }
         }
+          /* Styles for the Navbar */
+          .labenavbar {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Menu Icon for Mobile */
+        .menu-icon {
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+        }
+
+        /* Main Dropdown Menu */
+        .dropdown-menu {
+            list-style: none;
+            background-color: #444;
+            display: none; /* Hidden by default */
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .dropdown-menu li {
+            padding: 1rem;
+            border-top: 1px solid #555;
+            position: relative;
+        }
+
+        .dropdown-menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Nested Dropdown */
+        .nested-menu {
+            list-style: none;
+            display: none; /* Hidden by default */
+            background-color: #555;
+            margin-top: 0.5rem;
+            padding-left: 1rem;
+        }
+
+        .nested-menu li {
+            padding: 0.5rem 1rem;
+            border-top: 1px solid #666;
+        }
+
+        /* Show menu when active class is added */
+        .dropdown-menu.active {
+            display: flex;
+        }
+
+        .nested-menu.active {
+            display: block;
+        }
+        .forphase{
+            display: none;
+        }
+
+
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .menu-icon {
+                display: block;
+            }
+            .prioroder{
+                display: none;
+            }
+            .forphase{
+                display: block;
+            }
+        }
    
