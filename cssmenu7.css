@@ -225,5 +225,63 @@
             .forphase{
                 display: block;
             }
+          
         }
-   
+        /* Base Styles */
+
+
+/* Theme Styles */
+.light-theme {
+  background-color:grey;
+  color:white;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.blue-theme {
+  background-color: #1e90ff;
+  color: #ffffff;
+}
+
+.green-theme {
+  background-color: #32cd32;
+  color: #ffffff;
+}
+
+.theme-container {
+  text-align: center;
+}
+.yellow-theme {
+  background-color: yellowgreen;
+  color: black;
+}
+.red-theme {
+  background-color: red;
+  color: black;
+}
+.orange-theme {
+  background-color: orange;
+  color: #ffffff;
+}
+.brown-theme {
+  background-color: brown;
+  color: black;
+}
+@media (max-width: 920px) and (min-width: 769px) {
+ 
+  .navbar{
+    font-size: 15px;
+    
+  }
+}
+.thema{
+  position: fixed;
+  top: 6%;
+  right: 5px;
+  background-color: black;
+  color: white;
+  z-index: 10000;
+}
